@@ -1,0 +1,77 @@
+#login {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../public/stars.svg");
+    position: relative;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins';
+
+    .login-section {
+        background: red !important;
+    }
+
+    .login-header {
+        position: absolute;
+        opacity: 0.7;
+        background-image: url('../../public/vector-top.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 172px;
+        top: 0;
+        z-index: -1;
+        @include media-breakpoint-up(md) {
+            display: none;
+        }
+    }
+
+    .login-footer {
+        background-image: url('../../public/vector-bottom.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        height: 320px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+    }
+    
+    .login-h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        background: linear-gradient(94.72deg, #62CDFC 1.86%, #7B86F5 72.76%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .login-h2 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color: $h2-color;
+        margin-top: -30px;
+    }
+
+    .login-subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 154.3%;
+        color: $subtitle-color;
+        width: 75%;
+    }
+    .login-button {
+        width: 150px;
+        height: 50px;
+        background: linear-gradient(180deg, #8490FF 0%, #6C75E4 100%);
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}

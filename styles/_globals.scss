@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(77.75deg, #34488F -1.93%, #1E0F3B 81.12%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Poppins";
+    color: white;
+}
+
+.svg-top{
+    position: absolute;
+    left: -100px;
+    top: -90px;
+    transform: rotate(-8.10deg);
+    z-index: -1;
+}
+
+.svg-bottom {
+    position: absolute;
+    left: -180px;
+    bottom: -250px;
+    // top: 500px;
+    transform: rotate(10.11deg);
+    z-index: -1;
+}
