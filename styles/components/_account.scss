@@ -1,0 +1,23 @@
+#account {
+    .account-header{
+        border-radius: 12px;
+        border: 0.8px solid rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.06);
+    }
+    .account-header-address {
+        color: rgba(255, 255, 255, 0.30);
+        font-weight: 400;
+    }
+    .account-header-address-value {
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    .account-header-balance {
+        color: rgba(255, 255, 255, 0.30);
+        font-weight: 400;
+    }
+    .account-header-balance-value {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

@@ -7,3 +7,20 @@ body {
     font-family: "Poppins";
     color: white;
 }
+
+.svg-top{
+    position: absolute;
+    left: -100px;
+    top: -90px;
+    transform: rotate(-8.10deg);
+    z-index: -1;
+}
+
+.svg-bottom {
+    position: absolute;
+    left: -180px;
+    bottom: -250px;
+    // top: 500px;
+    transform: rotate(10.11deg);
+    z-index: -1;
+}
